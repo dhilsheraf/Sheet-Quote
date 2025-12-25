@@ -15,7 +15,6 @@ const App = () => {
         <Route path='/quotation' element={<Quotation/>}></Route>
         <Route path='/invoice' element={<Invoice/>}></Route>
       </Routes>
-  
     </BrowserRouter>
   )
 }

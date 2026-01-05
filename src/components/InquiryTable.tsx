@@ -10,7 +10,7 @@ type InquiryTableProps = {
 
 const InquiryTable = ({ data }: InquiryTableProps) => {
     if (data.length === 0) {
-        return <div className="text-center mt-6 text-red-500 text-3xl" >No data available !!!</div>
+        return <div className="text-center mt-6 text-red-500 text-3xl" >No data availablewe !!!</div>
     }
     return (
         <div className="mt-6 ">

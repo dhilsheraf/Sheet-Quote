@@ -41,7 +41,7 @@ const Inquiry = () => {
 
   return (
     <div className="min-h-screen bg-sky-100">
-      <div className='max-w-5xl mx-auto px-6 py-8'>
+      <div className='max-w-5xl mx-auto px-6 py-8'> 
         <h2>Inquiry page</h2>
         <InquiryInput onChange={handleChange} />
         <br />
